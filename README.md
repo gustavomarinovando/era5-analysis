@@ -1,3 +1,6 @@
 # ERA5 Data Analysis
 Here I'll add some of the scripts I'll be using to calculate water vapor attenuation<br />
-In the file DataCleaning we'll show the process of extracting the data and interpolating the values to find the Total Column Water Vapor at a desired location. The data has to be previously downloaded from [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form) only for the 4 surrounding points of the desired location.
+### Data Cleaning
+In the file [DataCleaning](https://github.com/gustavomarinovando/era5-analysis/blob/master/DataCleaning.ipynb) we'll show the process of extracting the data and interpolating the values to find the Total Column Water Vapor at a desired location. The data has to be previously downloaded from [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form) only for the 4 surrounding points of the desired location.
+### Data Plotting
+In the file [DataPlotting](https://github.com/gustavomarinovando/era5-analysis/blob/master/DataPlotting.ipynb) we'll show the process of plotting some histograms of monthly data and later we'll use daily data to calculate integrated water vapor attenuation using the [Recommendation ITU-R P.676-12](https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.676-12-201908-I!!PDF-E.pdf) and finally we'll plot the CCDFs for the IWV Attenuation.
